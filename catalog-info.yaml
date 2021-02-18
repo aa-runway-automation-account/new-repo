@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "testcreate-for-register"
+  description: "generate the repo"
+  annotations:
+    github.com/project-slug: fidelcoria-aa/new-repo
+    backstage.io/techdocs-ref: url:https://github.com/fidelcoria-aa/new-repo
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "fidelcoria-aa"

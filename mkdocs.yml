@@ -1,0 +1,8 @@
+site_name: "testcreate-for-register"
+site_description: "generate the repo"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
